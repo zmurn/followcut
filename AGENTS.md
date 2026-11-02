@@ -103,6 +103,7 @@ npm run share        # build + optional local phone-handoff server on :4173
 - Building a single-file artifact where the inline script runs before `#app`.
 - Making a comparison label depend on color alone.
 - Turning the optional handoff server into a cloud backend or a required dependency. The standalone single-file app must keep working with no server and its one-frame-limited CSP.
+- Adding or suggesting a browser-console/automation script that clicks Instagram's Unfollow. The product has no account actions, cookies, private endpoints, or injected clicks; the cleanup queue is manual by design.
 - Persisting handoff sessions to disk or logging their bodies/codes. The server holds normalized data in memory only, expires the QR in ten minutes, and keeps an opened live session for twelve hours while running.
 - Adding a service worker/PWA to phone handoff over plain LAN HTTP. It is not a secure context; the phone page must load from the running server.
 - Treating the skip link’s `#main` as a route. `App` handles `#main` before the hash router so it focuses main instead of navigating to the dashboard.

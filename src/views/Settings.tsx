@@ -283,7 +283,7 @@ export function Settings({ onNavigate, onOpenPhone }: SettingsProps) {
             <div class="section__body">
               <p class="rail-note">
                 FOLLOW/CUT is an independent tool for curating a following list. It is not affiliated with Instagram or Meta.
-                It never automates account actions and does not promise that unfollowing is risk-free.
+                It never automates account actions—no console scripts, session cookies, private endpoints, or injected clicks—and does not promise that unfollowing is risk-free.
               </p>
               <div class="about-links">
                 <a href="https://github.com/Mahmooodsaeed/IG-Cleanup-Tool" target="_blank" rel="noopener noreferrer">IG Cleanup Tool (parser lineage, MIT) <Icon name="external" size={11} /></a>

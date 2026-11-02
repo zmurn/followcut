@@ -8,9 +8,9 @@ No login. No upload. No unzipping. No automatic unfollowing.
 
 ## Why this exists
 
-Instagram exports are confusing to request and miserable to read. Most cleanup tools either dump 1,700 rows into a spreadsheet or encourage a browser-console script that clicks Unfollow for you.
+Instagram exports are confusing to request and miserable to read. Most cleanup tools either dump 1,700 rows into a spreadsheet or rely on a browser-console script that clicks Unfollow for you. FOLLOW/CUT does neither.
 
-FOLLOW/CUT makes the *review* fast and the *action* explicit:
+It makes the *review* fast and the *action* explicit:
 
 - **Import** the ZIP exactly as Meta gives it to you.
 - **Decide** with the arrow keys, a drag, or buttons: **Cut** (mark for cleanup), **Keep**, or **Maybe**.
@@ -19,6 +19,12 @@ FOLLOW/CUT makes the *review* fast and the *action* explicit:
 **Cut is not unfollowing.** It is a note to your future self. The app never talks to Instagram, never needs your password, and never performs an account action.
 
 The example in this repository uses the brief's starting numbers: **1,733 following, 1,336 followers, 0.77:1, 397 confirmed removals needed for 1:1.** The demo deck reproduces them with fictional accounts.
+
+### Why there is no unfollow button
+
+Instagram has no public API for unfollowing. A browser-console script that clicks Unfollow needs your logged-in Instagram session, runs outside this app's consent and confirmation model, and is exactly the kind of automation that can trigger action blocks or account restrictions. It also breaks whenever Instagram changes its markup.
+
+FOLLOW/CUT deliberately ships no console script, cookie access, private endpoint, or injected click. The cleanup queue is one-at-a-time: open the profile yourself, unfollow on Instagram, then confirm it here. **Cut is still not unfollowing.**
 
 ---
 
