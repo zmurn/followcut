@@ -1,0 +1,12 @@
+{
+  "relationships_following": [
+    {
+      "title": "",
+      "label_values": [
+        { "label": "Username", "value": "new.account" },
+        { "label": "URL", "value": "https://www.instagram.com/new.account/" },
+        { "label": "Timestamp", "value": "1700000000" }
+      ]
+    }
+  ]
+}

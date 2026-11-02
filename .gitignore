@@ -1,0 +1,14 @@
+node_modules/
+test-results/
+playwright-report/
+shots/
+qa-shots/
+.DS_Store
+*.log
+
+# local secrets / env
+.env
+.env.*
+!.env.example
+coverage/
+.vite/

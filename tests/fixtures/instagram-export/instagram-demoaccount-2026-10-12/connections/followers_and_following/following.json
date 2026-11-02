@@ -1,0 +1,69 @@
+{
+  "relationships_following": [
+    {
+      "title": "",
+      "string_list_data": [
+        {
+          "href": "https://www.instagram.com/atlas_studio",
+          "value": "Atlas_Studio",
+          "timestamp": 1719830400
+        }
+      ]
+    },
+    {
+      "title": "",
+      "string_list_data": [
+        {
+          "href": "https://www.instagram.com/_u/quiet.archive",
+          "timestamp": 1600000000
+        }
+      ]
+    },
+    {
+      "title": "moss.room",
+      "string_list_data": []
+    },
+    {
+      "title": "",
+      "string_list_data": [
+        {
+          "href": "https://www.instagram.com/paper.press",
+          "value": "paper.press",
+          "timestamp": 1500000000
+        }
+      ]
+    },
+    {
+      "title": "",
+      "string_list_data": [
+        {
+          "href": "https://www.instagram.com/slow.field",
+          "value": "slow.field"
+        }
+      ]
+    },
+    {
+      "title": "",
+      "string_map_data": {
+        "Username": {
+          "value": "umber.house",
+          "href": "https://www.instagram.com/umber.house"
+        },
+        "Timestamp": {
+          "value": "",
+          "timestamp": 1680000000
+        }
+      }
+    },
+    {
+      "title": "",
+      "string_list_data": [
+        {
+          "href": "https://www.instagram.com/Zephyr.Co",
+          "value": "Zephyr.Co",
+          "timestamp": 1650000000
+        }
+      ]
+    }
+  ]
+}
